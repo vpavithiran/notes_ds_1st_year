@@ -1,0 +1,40 @@
+def stk_priz_write():
+    with open("stock-prices.txt", 'a') as stk:
+        while True:
+            stk_name = input("Enter the stock name(or 'quit' to stop) :")
+            if stk_name.lower() == 'quit':
+                break
+            stk_price = list()
+            for day in range(1, 6):
+                price = float(input("Enter the {} day price: ".format(day)))
+                stk_price.append(price)
+            stk.write("{},{}\n".format(stk_name,','.join(map(str, stk_price))))
+            
+def stk_priz_read():
+    stk_data = {}
+    with open("stock-prices.txt", 'r') as stk:
+        for s in stk:
+            stk_info = s.strip().split(',')
+            stk_name = stk_info[0]
+            prices = list(map(float, stk_info[1:]))
+            stk_data[stk_name] = prices
+    return stk_data
+
+def analizing_stk_prz(stocks_data):
+    for stock_name, prices in stocks_data.items():
+        min_price = min(prices)
+        max_price = max(prices)
+        avg_price = sum(prices) / len(prices)
+
+        min_day = prices.index(min_price) + 1
+        max_day = prices.index(max_price) + 1
+
+        print(f"Stock Name: {stock_name}")
+        print(f"Minimum Price: {min_price} (Day {min_day})")
+        print(f"Maximum Price: {max_price} (Day {max_day})")
+        print(f"Average Price: {avg_price:.2f}")
+        print()
+    
+stk_priz_write()
+stk_data = stk_priz_read()
+analizing_stk_prz(stk_data)

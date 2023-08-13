@@ -1,0 +1,704 @@
+From: sender@example.com
+From: john@example.com
+Details: rev=1.2345
+Details: rev=0
+Details: rev=0.345
+From A12: This line has a number less than 00
+From B56: This line has a number greater than 00
+From C00: This line has a number equal to 00
+From D101: This line has a number greater than 99
+From X123: 12.5
+From Y45: 0.987
+From Z78: -3.14
+"""
+
+Line with an email address: example@gmail.com
+Line with an email address: another@example.com
+"""
+
+Some random text without a pattern
+This line contains an @ sign in the middle: test@example.com
+Here's another one: 123@example.org
+"""
+
+More text with a pattern: X1: 0.5, Y2: 3.14, Z3: 2.718
+This line has no numbers: X: , Y: , Z:
+"""
+
+Details: rev=3.14159
+Details: rev=2.71828
+"""
+
+From Q01: 3.14
+From R99: 0
+"""
+
+Details: rev=2.0
+"""
+
+"""
+
+From A00: 2.718
+"""
+
+Details: rev=0.123
+"""
+
+From: test@example.com
+"""
+
+From T09: 1.414
+"""
+
+From U10: 0.5
+"""
+
+Details: rev=1.618
+"""
+
+From V17: 2.718
+"""
+
+From: user@example.com
+"""
+
+From W89: 0.1
+"""
+
+Details: rev=1.732
+"""
+
+From X90: 0
+"""
+
+Details: rev=0.5
+"""
+
+From Y34: 3.14
+"""
+
+From Z12: -1.414
+"""
+
+"""
+
+This is a line starting with X and has a number: X1
+"""
+
+This is a line starting with X and has a negative number: X-1.618
+"""
+
+"""
+
+Line with an email address: test@example.com
+"""
+
+This is a line starting with Y and has a number: Y2.718
+"""
+
+"""
+
+Line with an email address: user@example.com
+"""
+
+Line with an email address: contact@example.com
+"""
+
+This is a line starting with Z and has a number: Z3.142
+"""
+
+Line with an email address: info@example.com
+"""
+
+This is a line starting with X and has a number: X0.5
+"""
+
+Line with an email address: xyz@example.com
+"""
+
+Line with an email address: abc@example.com
+"""
+
+This is a line starting with Y and has a number: Y1.732
+"""
+
+Line with an email address: sample@example.com
+"""
+
+This is a line starting with Z and has a number: Z2.718
+"""
+
+This line starts with X and has a number less than zero: X-0.5
+"""
+
+This line starts with X and has a number greater than zero: X0.1
+"""
+
+This line starts with Y and has a number greater than zero: Y0.345
+"""
+
+This line starts with Z and has a number greater than zero: Z0.123
+"""
+
+"""
+
+This line starts with X and has a number greater than zero: X1.234
+"""
+
+This line starts with X and has a number less than zero: X-0.987
+"""
+
+This line starts with Y and has a number greater than zero: Y0.123
+"""
+
+This line starts with Y and has a number greater than zero: Y0.987
+"""
+
+"""
+
+This line starts with Z and has a number greater than zero: Z1.618
+"""
+
+This line starts with Z and has a number greater than zero: Z0.5
+"""
+
+This line starts with Z and has a number less than zero: Z-2.718
+"""
+
+"""
+
+"""
+
+This line contains no number: X:
+"""
+
+"""
+
+"""
+
+This line contains no number: Y:
+"""
+
+"""
+
+This line contains no number: Z:
+"""
+
+"""
+
+"""
+
+This line contains an email address: test@example.com
+"""
+
+This line contains an email address: sample@example.com
+"""
+
+This line contains an email address: user@example.com
+"""
+
+This line contains an email address: contact@example.com
+"""
+
+This line contains an email address: info@example.com
+"""
+
+This line contains an email address: xyz@example.com
+"""
+
+This line contains an email address: abc@example.com
+"""
+
+This line contains an email address: john@example.com
+"""
+
+This line contains an email address: sender@example.com
+"""
+
+This line contains an email address: another@example.com
+"""
+
+This line contains an email address: example@gmail.com
+"""
+
+This line contains an email address: test@example.org
+"""
+
+This line contains an email address: 123@example.org
+"""
+
+This line contains an email address: example@example.org
+"""
+
+This line contains an email address: sample@example.org
+"""
+
+This line contains an email address: user@example.org
+"""
+
+This line contains an email address: contact@example.org
+"""
+
+This line contains an email address: info@example.org
+"""
+
+This line contains an email address: xyz@example.org
+"""
+
+This line contains an email address: abc@example.org
+"""
+
+This line contains an email address: john@example.org
+"""
+
+This line contains an email address: sender@example.org
+"""
+
+This line contains an email address: another@example.org
+"""
+
+This line contains an email address: test@domain.com
+"""
+
+This line contains an email address: sample@domain.com
+"""
+
+This line contains an email address: user@domain.com
+"""
+
+This line contains an email address: contact@domain.com
+"""
+
+This line contains an email address: info@domain.com
+"""
+
+This line contains an email address: xyz@domain.com
+"""
+
+This line contains an email address: abc@domain.com
+"""
+
+This line contains an email address: john@domain.com
+"""
+
+This line contains an email address: sender@domain.com
+"""
+
+This line contains an email address: another@domain.com
+"""
+
+This line contains an email address: test@example.net
+"""
+
+This line contains an email address: sample@example.net
+"""
+
+This line contains an email address: user@example.net
+"""
+
+This line contains an email address: contact@example.net
+"""
+
+This line contains an email address: info@example.net
+"""
+
+This line contains an email address: xyz@example.net
+"""
+
+This line contains an email address: abc@example.net
+"""
+
+This line contains an email address: john@example.net
+"""
+
+This line contains an email address: sender@example.net
+"""
+
+This line contains an email address: another@example.net
+"""
+
+This line contains an email address: test@domain.net
+"""
+
+This line contains an email address: sample@domain.net
+"""
+
+This line contains an email address: user@domain.net
+"""
+
+This line contains an email address: contact@domain.net
+"""
+
+This line contains an email address: info@domain.net
+"""
+
+This line contains an email address: xyz@domain.net
+"""
+
+This line contains an email address: abc@domain.net
+"""
+
+This line contains an email address: john@domain.net
+"""
+
+This line contains an email address: sender@domain.net
+"""
+
+This line contains an email address: another@domain.net
+"""
+
+This line contains an email address: test@example.co.uk
+"""
+
+This line contains an email address: sample@example.co.uk
+"""
+
+This line contains an email address: user@example.co.uk
+"""
+
+This line contains an email address: contact@example.co.uk
+"""
+
+This line contains an email address: info@example.co.uk
+"""
+
+This line contains an email address: xyz@example.co.uk
+"""
+
+This line contains an email address: abc@example.co.uk
+"""
+
+This line contains an email address: john@example.co.uk
+"""
+
+This line contains an email address: sender@example.co.uk
+"""
+
+This line contains an email address: another@example.co.uk
+"""
+
+This line contains an email address: test@domain.co.uk
+"""
+
+This line contains an email address: sample@domain.co.uk
+"""
+
+This line contains an email address: user@domain.co.uk
+"""
+
+This line contains an email address: contact@domain.co.uk
+"""
+
+This line contains an email address: info@domain.co.uk
+"""
+
+This line contains an email address: xyz@domain.co.uk
+"""
+
+This line contains an email address: abc@domain.co.uk
+"""
+
+This line contains an email address: john@domain.co.uk
+"""
+
+This line contains an email address: sender@domain.co.uk
+"""
+
+This line contains an email address: another@domain.co.uk
+"""
+
+This line contains an email address: test@example.ca
+"""
+
+This line contains an email address: sample@example.ca
+"""
+
+This line contains an email address: user@example.ca
+"""
+
+This line contains an email address: contact@example.ca
+"""
+
+This line contains an email address: info@example.ca
+"""
+
+This line contains an email address: xyz@example.ca
+"""
+
+This line contains an email address: abc@example.ca
+"""
+
+This line contains an email address: john@example.ca
+"""
+
+This line contains an email address: sender@example.ca
+"""
+
+This line contains an email address: another@example.ca
+"""
+
+This line contains an email address: test@domain.ca
+"""
+
+This line contains an email address: sample@domain.ca
+"""
+
+This line contains an email address: user@domain.ca
+"""
+
+This line contains an email address: contact@domain.ca
+"""
+
+This line contains an email address: info@domain.ca
+"""
+
+This line contains an email address: xyz@domain.ca
+"""
+
+This line contains an email address: abc@domain.ca
+"""
+
+This line contains an email address: john@domain.ca
+"""
+
+This line contains an email address: sender@domain.ca
+"""
+
+This line contains an email address: another@domain.ca
+"""
+
+This line contains an email address: test@example.us
+"""
+
+This line contains an email address: sample@example.us
+"""
+
+This line contains an email address: user@example.us
+"""
+
+This line contains an email address: contact@example.us
+"""
+
+This line contains an email address: info@example.us
+"""
+
+This line contains an email address: xyz@example.us
+"""
+
+This line contains an email address: abc@example.us
+"""
+
+This line contains an email address: john@example.us
+"""
+
+This line contains an email address: sender@example.us
+"""
+
+This line contains an email address: another@example.us
+"""
+
+This line contains an email address: test@domain.us
+"""
+
+This line contains an email address: sample@domain.us
+"""
+
+This line contains an email address: user@domain.us
+"""
+
+This line contains an email address: contact@domain.us
+"""
+
+This line contains an email address: info@domain.us
+"""
+
+This line contains an email address: xyz@domain.us
+"""
+
+This line contains an email address: abc@domain.us
+"""
+
+This line contains an email address: john@domain.us
+"""
+
+This line contains an email address: sender@domain.us
+"""
+
+This line contains an email address: another@domain.us
+"""
+
+This line contains an email address: test@example.io
+"""
+
+This line contains an email address: sample@example.io
+"""
+
+This line contains an email address: user@example.io
+"""
+
+This line contains an email address: contact@example.io
+"""
+
+This line contains an email address: info@example.io
+"""
+
+This line contains an email address: xyz@example.io
+"""
+
+This line contains an email address: abc@example.io
+"""
+
+This line contains an email address: john@example.io
+"""
+
+This line contains an email address: sender@example.io
+"""
+
+This line contains an email address: another@example.io
+"""
+
+This line contains an email address: test@domain.io
+"""
+
+This line contains an email address: sample@domain.io
+"""
+
+This line contains an email address: user@domain.io
+"""
+
+This line contains an email address: contact@domain.io
+"""
+
+This line contains an email address: info@domain.io
+"""
+
+This line contains an email address: xyz@domain.io
+"""
+
+This line contains an email address: abc@domain.io
+"""
+
+This line contains an email address: john@domain.io
+"""
+
+This line contains an email address: sender@domain.io
+"""
+
+This line contains an email address: another@domain.io
+"""
+
+This line contains an email address: test@example.org.uk
+"""
+
+This line contains an email address: sample@example.org.uk
+"""
+
+This line contains an email address: user@example.org.uk
+"""
+
+This line contains an email address: contact@example.org.uk
+"""
+
+This line contains an email address: info@example.org.uk
+"""
+
+This line contains an email address: xyz@example.org.uk
+"""
+
+This line contains an email address: abc@example.org.uk
+"""
+
+This line contains an email address: john@example.org.uk
+"""
+
+This line contains an email address: sender@example.org.uk
+"""
+
+This line contains an email address: another@example.org.uk
+"""
+
+This line contains an email address: test@domain.org.uk
+"""
+
+This line contains an email address: sample@domain.org.uk
+"""
+
+This line contains an email address: user@domain.org.uk
+"""
+
+This line contains an email address: contact@domain.org.uk
+"""
+
+This line contains an email address: info@domain.org.uk
+"""
+
+This line contains an email address: xyz@domain.org.uk
+"""
+
+This line contains an email address: abc@domain.org.uk
+"""
+
+This line contains an email address: john@domain.org.uk
+"""
+
+This line contains an email address: sender@domain.org.uk
+"""
+
+This line contains an email address: another@domain.org.uk
+"""
+
+This line contains an email address: test@example.com.au
+"""
+
+This line contains an email address: sample@example.com.au
+"""
+
+This line contains an email address: user@example.com.au
+"""
+
+This line contains an email address: contact@example.com.au
+"""
+
+This line contains an email address: info@example.com.au
+"""
+
+This line contains an email address: xyz@example.com.au
+"""
+
+This line contains an email address: abc@example.com.au
+"""
+
+This line contains an email address: john@example.com.au
+"""
+
+This line contains an email address: sender@example.com.au
+"""
+
+This line contains an email address: another@example.com.au
+"""
+
+This line contains an email address: test@domain.com.au
+"""
+
+This line contains an email address: sample@domain.com.au
+"""
+
+This line contains an email address: user@domain.com.au
+"""
+
+This line contains an email address: contact@domain.com.au
+"""
+
+This line contains an email address: info@domain.com.au
+"""
+
+This line contains an email address: xyz@domain.com.au
+"""
+
+This line contains an email address: abc@domain.com.au
+"""
+
+This line contains an email address: john@domain.com.au
+"""
+
+This line contains an email address: sender@
